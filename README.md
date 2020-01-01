@@ -1,5 +1,4 @@
 # **My #100daysofcode Challenge**
-# Day 00 -> How to code a timer in Javascript
 ![GitHub](https://img.shields.io/github/license/MarceloKabbalah/100-Days-Of-Code?color=blue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/MarceloKabbalah/100-Days-Of-Code)
 ![GitHub issues](https://img.shields.io/github/issues/MarceloKabbalah/100-Days-Of-Code)
