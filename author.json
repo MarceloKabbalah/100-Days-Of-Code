@@ -15,7 +15,10 @@
         "github": "https://github.com/MarceloKabbalah/100-Days-Of-Code",
         "bugs": "https://github.com/MarceloKabbalah/100-Days-Of-Code/issues",
         "commits": "https://github.com/MarceloKabbalah/100-Days-Of-Code/commits",
-        "description": "100 days of code is a challenge where I set myself the goal to programm for 100 consecutive days. The only rules where I had to do it at least for 1 hour and it had to be for personal projects and selfdevelopment only. Programming at work doesn’t count because than it would be no challenge.",
+        "description": [
+            "100 days of code is a challenge where I set myself the goal to programm for 100 consecutive days.",
+            "The only rules where I had to do it at least for 1 hour and it had to be for personal projects and",
+            "selfdevelopment only. Programming at work doesn’t count because than it would be no challenge."],
         "license": "MIT"
     },
     "Keywords": [
