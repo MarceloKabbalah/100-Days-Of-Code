@@ -9,3 +9,4 @@
 ![GitHub forks](https://img.shields.io/github/forks/MarceloKabbalah/100-Days-Of-Code?style=social)
 
 - **Day00 -> :**&nbsp;[How to code a timer in Javascript](https://github.com/MarceloKabbalah/100-Days-Of-Code/tree/master/Day00)
+- **Day00 -> :**&nbsp;[Build a Reddit Search App With ES6, Fetch & Parcel](https://github.com/MarceloKabbalah/100-Days-Of-Code/tree/master/Day00)
