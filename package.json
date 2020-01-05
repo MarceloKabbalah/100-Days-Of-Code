@@ -1,0 +1,25 @@
+{
+  "name": "lintcommit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MarceloKabbalah/100-Days-Of-Code.git",
+  "author": "Marcelo Kabbalah <marceloregis.soares@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "devDependencies": {
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "3.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
