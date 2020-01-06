@@ -1,0 +1,11 @@
+{
+    "permissions": [
+        "tabs",
+        "bookmarks",
+        "http://www.blogger.com/",
+        "http://*.google.com/",
+        "unlimitedStorage",
+        "file:///D:/Lab/Code%20Challenges/100-Days-Of-Code/Day04/index.html",
+        "http://127.0.0.1:5500/Day04/"
+      ]
+  }

@@ -1,4 +1,4 @@
-## **Log of Round 1 of #100DaysOfCode - done in 2020**
+## **Log of Round 1 of #100DaysOfCode - 2020**
 ![GitHub](https://img.shields.io/github/license/MarceloKabbalah/100-Days-Of-Code?color=blue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/MarceloKabbalah/100-Days-Of-Code)
 ![GitHub issues](https://img.shields.io/github/issues/MarceloKabbalah/100-Days-Of-Code)
@@ -16,7 +16,7 @@
 
 **Link to work:** [JavaScript Simple Timer App](https://github.com/MarceloKabbalah/100-Days-Of-Code/tree/master/Day00)
 ___
-### Day 1: January 2. Wednesday
+### Day 1: January 2. Thursday
 
 **Today's Progress**: I started building a Reddit search app very late today so I didn't even use css, but I will pass some cosmetics later.
 
@@ -24,7 +24,7 @@ ___
 
 **Link to work:** [Reddit Search App](https://github.com/MarceloKabbalah/100-Days-Of-Code/tree/master/Day01)
 ___
-### Day 2: January 3. Wednesday
+### Day 2: January 3. Friday
 
 **Today's Progress**: I started building a Pet Finder app very late again, too without css, but I will pass some cosmetics later.
 
@@ -32,11 +32,19 @@ ___
 
 **Link to work:** [Pet Finder App](https://github.com/MarceloKabbalah/100-Days-Of-Code/tree/master/Day02)
 ___
-### Day 3: January 4. Wednesday
+### Day 3: January 4. Saturday
 
 **Today's Progress**: Today I started with a very simple Javascript calculator and ended the day using some cosmetics with sass / scss. 
 
 **Thoughts:** Surprisingly, it seemed to be the hardest job so far, because I got lost in the middle :). I will improve the functions and pass a little more cosmetics in the coming days.
 
 **Link to work:** [JavaScript Calculator](https://github.com/MarceloKabbalah/100-Days-Of-Code/tree/master/Day03)
+___
+### Day 3: January 5. Sunday
+
+**Today's Progress**: Today I started with . 
+
+**Thoughts:** .
+
+**Link to work:** [JavaScript Calculator](https://github.com/MarceloKabbalah/100-Days-Of-Code/tree/master/Day04)
 ___
