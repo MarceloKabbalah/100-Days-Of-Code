@@ -1,0 +1,100 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Gotham Rounded, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, hsl(200, 100%, 50%), hsl(175, 100%, 50%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.clock {
+    background-color: rgba(255,255,255, .8);
+    border: 2px solid #000;
+    border-radius: 50%;
+    height: 300px;
+    position: relative;
+    width: 300px;
+
+    .number {
+        --rotation: 0;
+        font-size: 1.5rem;
+        height: 100%;
+        position: absolute;
+        text-align: center;
+        transform: rotate(var(--rotation));
+        width: 100%;
+
+        &1 { --rotation: 30deg;
+        }
+        &2 { --rotation: 60deg;
+        }
+        &3 { --rotation: 90deg;
+        }
+        &4 { --rotation: 120deg;
+        }
+        &5 { --rotation: 150deg;
+        }
+        &6 { --rotation: 180deg;
+        }
+        &7 { --rotation: 210deg;
+        }
+        &8 { --rotation: 240deg;
+        }
+        &9 { --rotation: 270deg;
+        }
+        &10 { --rotation: 300deg;
+        }
+        &11 { --rotation: 330deg;
+        }
+    }
+
+    &::after
+    {
+        content: '';
+        position: absolute;
+        background-color: black;
+        z-index: 11;
+        width: 15px;
+        height: 15px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+    }
+    .hand {
+        --rotation: 0;
+        position: absolute;
+        bottom: 50%;
+        left: 50%;
+        background-color: #000;
+        border: 1px solid white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        transform-origin: bottom;
+        z-index: 10;
+        transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+
+        &.second {
+            width: 3px;
+            height: 45%;
+            background-color: red;
+        }
+
+        &.minute {
+            width: 7px;
+            height: 40%;
+            background-color: black;
+        }
+
+        &.hour {
+            width: 10px;
+            height: 35%;
+            background-color: black;
+        }
+    }
+}
