@@ -18,7 +18,7 @@ if (messageForm != numm) {
     })
 }
 
-socket.('coom-created', room => {
+socket.on('room-created', room => {
     const roomElement = document.createElement('div')
     roomElement.innerText = room
     const roomLink= document.createElement('a')
