@@ -10,7 +10,7 @@
       <button type="submit" class="btn btn-primary">Add Todo</button>
     </form>
     <ul class="list-group mt-3">
-      <li v-for="(todo, i) in todos" class="list-group-item">
+      <li v-for="(todo, i) in todos" :key="todo.id" class="list-group-item">
         <button @click="markDone(todo)" v-if="!todo.done" type="button" class="btn btn-primary">Done</button>
         <button @click="remove(i)" type="button" class="btn btn-danger">Delete</button>
         <span :class="{
