@@ -10,7 +10,7 @@
       <button @click="$emit('toggle', todo)" class="btn btn-link">
           <span v-if="todo.checked">Undone</span>
           <span v-else>Done</span>
-          Done</button>
+      </button>
       <button @click="$emit('delete', todo)" class="btn btn-link">
         <span class="text-error">Delete</span>
       </button>
@@ -30,6 +30,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.tile {
+  margin-top: 1rem;
+  padding: 1rem;
+  box-shadow: 0 0.25rem 1rem rgba(48, 55, 66, 0.15);
+}
+
 .checked {
   text-decoration: line-through;
   color: lightgray;
